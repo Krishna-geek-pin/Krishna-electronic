@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Bill - Krishna Electronics Motor Rewinding Works</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    .bill-form {
+      padding: 20px;
+      background-color: #2c3e50;
+      color: white;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .bill-form input, .bill-form select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: none;
+      font-size: 1em;
+    }
+
+    .bill-form button {
+      width: 100%;
+      padding: 10px;
+      background-color: #34495e;
+      color: white;
+      font-size: 1.2em;
+      border: none;
+      cursor: pointer;
+    }
+
+    .bill-form button:hover {
+      background-color: #2c3e50;
+    }
+
+    nav {
+      background-color: #34495e;
+      overflow: hidden;
+    }
+
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      display: inline-block;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    nav a:hover {
+      background-color: #2c3e50;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About Us</a>
+  <a href="services.html">Services</a>
+  <a href="bill.html">Create Bill</a>
+  <a href="contact.html">Contact Us</a>
+</nav>
+
+<!-- Create Bill Form -->
+<div class="bill-form">
+  <h2>Create Your Bill</h2>
+  <form>
+    <label for="product">Product</label>
+    <input type="text" id="product" name="product" placeholder="Enter product name">
+
+    <label for="quantity">Quantity</label>
+    <input type="number" id="quantity" name="quantity" placeholder="Enter quantity">
+
+    <label for="unit-price">Unit Price</label>
+    <input type="number" id="unit-price" name="unit-price" placeholder="Enter unit price">
+
+    <label for="total-price">Total Price</label>
+    <input type="number" id="total-price" name="total-price" placeholder="Enter total price">
+
+    <button type="submit">Generate Bill</button>
+  </form>
+</div>
+
+</body>
+</html>
